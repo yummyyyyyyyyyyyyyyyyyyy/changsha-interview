@@ -2,8 +2,9 @@ import requests
 
 cookies = {
     'Hm_lvt_f80b2b389f44bbfb3bfe1704817d44e0': '1789195661,1789207509',
-    'Hm_lpvt_f80b2b389f44bbfb3bfe1704817d44e0': '1789207509',
     'HMACCOUNT': '3474ED5770D60F8F',
+    'sessionid': 'utiarl0r3ntdm8s6at420ka7pjxlf13v',
+    'Hm_lpvt_f80b2b389f44bbfb3bfe1704817d44e0': '1789208383',
 }
 
 headers = {
@@ -19,7 +20,7 @@ headers = {
     'sec-fetch-site': 'same-origin',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36',
     'x-requested-with': 'XMLHttpRequest',
-    # 'cookie': 'Hm_lvt_f80b2b389f44bbfb3bfe1704817d44e0=1789195661,1789207509; Hm_lpvt_f80b2b389f44bbfb3bfe1704817d44e0=1789207509; HMACCOUNT=3474ED5770D60F8F',
+    # 'cookie': 'Hm_lvt_f80b2b389f44bbfb3bfe1704817d44e0=1789195661,1789207509; HMACCOUNT=3474ED5770D60F8F; sessionid=utiarl0r3ntdm8s6at420ka7pjxlf13v; Hm_lpvt_f80b2b389f44bbfb3bfe1704817d44e0=1789208383',
 }
 
 params = {
